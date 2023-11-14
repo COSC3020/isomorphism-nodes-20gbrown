@@ -17,21 +17,23 @@ Considering two graphs A and B, with different numbers of nodes and not isomorph
 
 Graph A: $G_1 = (V_1, E_1)$
 
-Vertices: $V_1 = {A, B, C}$
-
-Edges: $E_1 = {(A, B), (B, C)}$
-
 Graph B: $G_2 = (V_2, E_2)$
 
-Vertices: $V_2 = {X, Y}$
+**Bijection function:**
 
-Edges: $E_2 = {(X, Y)}$
+$f: A ↔ B$
 
-Suppose that there exists a bijection function $f: V_1 \rightarrow V_2$ that makes Graph A isomorphic to Graph B.
+V<sub>A<sub>1</sub></sub> ↔ V<sub>B<sub>1</sub></sub>
 
-Since $f$ is a bijection, it must map all nodes of Graph A to all nodes of Graph B in a one-to-one and onto manner. However, it is impossible to find such a bijection in this case because Graph A has three nodes (A, B, and C), and Graph B has only two nodes (X and Y).
+V<sub>A<sub>2</sub></sub> ↔ V<sub>B<sub>2</sub></sub>
 
-In other words, there is no way to map all the nodes of Graph A to all the nodes of Graph B in a one-to-one and onto manner because the number of nodes is different in the two graphs.
+. . .
 
-Therefore, it has been shown that if two graphs, A and B, do not have the same number of nodes, they cannot be isomorphic.
+V<sub>A<sub>n</sub></sub> ↔ V<sub>B<sub>n</sub></sub>
+
+Since $f$ is a bijection, it must map all nodes of graph $G_1$ to all nodes of graph $G_2$ in a one-to-one manner. 
+
+However, it is impossible to find such a bijection in this case becase the graphs have a different number of nodes. In other words, if $G_1$ has $n$ nodes and $G_2$ has $m$ nodes, where $n /notequalto m$, then there is no way to map all the nodes of $G_1$ to all the nodes of $G_2$ in a one-to-one and onto manner. 
+
+Therefore, it has been shown that if two graphs, $G_1$ and $G_2$, do not have the same number of nodes, they cannot be isomorphic.
 
